@@ -1,11 +1,33 @@
 *{
     font-family: "Poppins", sans-serif;
+    font-weight: 300;
 }
 
+
 .banner{
-    background-image:url(/images/banner2.jpeg.jpg);
-    padding: 200px;
+    background-image:url(/images/gradient_banner2.png);
+    padding: 100px;
     background-size: cover;
     background-repeat:no-repeat;
     color:white;
 }
+
+
+
+#about .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@keyframes blackout {
+    0% { opacity: 1; }
+    50% { opacity: 0.75; }
+    100% { opacity: 1; }
+}
+
+.animated-image {
+    animation: blackout 3s infinite;
+}
+
+
+
