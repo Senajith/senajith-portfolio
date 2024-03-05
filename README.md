@@ -1,6 +1,6 @@
 # This repository is all about my portfolio website 
 
-## I have created my portfolio website using ==HTML, CSS and Bootstrap== library
+## I have created my portfolio website using **HTML, CSS and Bootstrap** library
 
 ### To view my website you can follow this link
 [My Portfolio](https://senajithsrs.ntelify.app)
