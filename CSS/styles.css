@@ -77,7 +77,15 @@
     }
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
 
+.carousel-control-prev,
+.carousel-control-next {
+  color: black;
+}
 
 
 #about .container {
