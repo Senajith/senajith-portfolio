@@ -2,6 +2,14 @@
     font-family: "Poppins", sans-serif;
     font-weight: 300;
 }
+
+.navbar-brand img {
+    width: 65px; /* Adjust this value as needed */
+    height: 50px; /* Maintain aspect ratio */
+    border-radius:6px;
+    border:0px;
+  }
+
 .banner {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
