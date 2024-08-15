@@ -14,8 +14,7 @@
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
-    background: linear-gradient(315deg, rgb(68,69,85) 3%, rgb(11,8,12) 18%, rgb(49,60,60) 28%, rgb(40,35,48) 68%);
-    animation: gradient 15s ease infinite;
+    background-color:rgb(29, 29, 31);; 
     background-size: 400% 400%;
     background-attachment: fixed;
     height:500px;
@@ -29,7 +28,7 @@
 .connect-btn{
     font-weight:500;
     font-size:14px;
-    color:#ffffff;
+    color:rgb(245, 245, 247);
     background-color: #0071e3;
     text-decoration:none;   
     padding:5px 15px;
@@ -119,8 +118,8 @@
 
 @keyframes blackout {
     0% { opacity: 1; }
-    50% { opacity: 0.75; }
-    100% { opacity: 0.35; }
+    50% { opacity: 0.85 ; }
+    100% { opacity: 1; }
 }
 
 .animated-image {
