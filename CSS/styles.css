@@ -14,15 +14,17 @@
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
-    background-color:rgb(29, 29, 31);; 
-    background-size: 400% 400%;
-    background-attachment: fixed;
-    height:500px;
+    background-image: url('/images/galaxy.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll; 
+    min-height:100vh;
     display: flex;
     flex-direction: column; /* Added to align contents vertically */
     justify-content: center; 
     align-items: flex-start;  /* Changed to align contents to the left */
     text-align: left;
+    
 }
 
 .connect-btn{
@@ -124,7 +126,4 @@
 
 .animated-image {
     animation: blackout 3s infinite;
-}
-
-
-
+}  
