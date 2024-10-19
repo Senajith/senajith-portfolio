@@ -4,8 +4,8 @@
 }
 
 .navbar-brand img {
-    width: 65px; /* Adjust this value as needed */
-    height: 50px; /* Maintain aspect ratio */
+    width: 100px; /* Adjust this value as needed */
+    height: 60px; /* Maintain aspect ratio */
     border-radius:6px;
     border:0px;
   }
@@ -116,6 +116,7 @@
 #about .container {
     padding-top: 50px;
     padding-bottom: 50px;
+    line-height: 35px;
 }
 
 @keyframes blackout {
